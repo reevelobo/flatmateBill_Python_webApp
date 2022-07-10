@@ -1,0 +1,75 @@
+h1{
+
+    text-align: center;
+    font-family: "Papyrus", "Copperplate", fantasy;
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: DarkGrey;
+    text-shadow: 1px 1px 0 #000000, -1px 1px 0 #000000,
+             1px -1px 0 #000000, -1px -1px 0 #000000;
+}
+p{
+    font-family: "Papyrus", "Copperplate", fantasy;
+    font-size: 28px;
+}
+p1{
+    font-family: "Lucida Console", "Courier New", monospace
+}
+label{
+    font-family: "Lucida Console", "Courier New", monospace
+}
+input[type=text]{
+    display: block;
+    width: 99%;
+    padding: 8px 8px;
+    margin: 10px 0;
+    border: 2px solid #c51350;
+    font-size: 18px;
+    font-family: arial, sans-serif;
+    border-radius: 6px
+
+}
+input[type=submit]{
+    display: block;
+    width: 100%;
+    background: #c3195d;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:.3s background ease;
+    &:hover{
+        background: #6643b5;
+    }
+
+
+
+}
+body{
+    font-family: sans-serif;
+    background-image: linear-gradient(111.67393794886436deg, rgba(244, 72, 105,1) 4.927083333333334%,rgba(159, 1, 234,1) 81.00260416666666%);
+    padding: 20px;
+}
+a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    background: #c3195d;
+    color: white;
+    padding: 12px 12px;
+    border: none;
+    border-radius: 6px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition:.3s background ease;
+    &:hover{
+        background: #6643b5;
+    }
+
+
+}
